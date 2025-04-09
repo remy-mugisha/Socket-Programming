@@ -1,0 +1,29 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.navbar {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+#tcp-response {
+    white-space: pre-wrap;
+    font-family: monospace;
+}
+
+.table {
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.table th {
+    background-color: #f1f1f1;
+}
